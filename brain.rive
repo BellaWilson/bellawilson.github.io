@@ -1,18 +1,7 @@
 // Chatbot's brain
-! version = 2.0
 
-! sub who's = who is
 
-+ *
-- try saying knock knock
-
-+ [*] knock knock [*]
-- Who's there?
+! var num = 9
 
 + *
-% who is there
-- <star1> who
-
-+ *
-% * who
-- hahahahahahah
+- Guess a number between 0 and 10
