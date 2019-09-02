@@ -14,7 +14,7 @@ function setup() {
   speechRec.start(continuous, interim);
 
   let bot = new RiveScript();
-  bot.loadFile("brain.rive").then(function() {
+  bot.loadFile("/brain.rive").then(function() {
     console.log("bot loaded!");
     bot.sortReplies();
   }).catch(function(err, filename, lineno) {
